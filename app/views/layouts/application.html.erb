@@ -29,7 +29,6 @@
     <% end %>
 
     <title>Honolulu Tutoring Online</title>
-    <%# <title><%= yield(:page_title).present? ? yield(:page_title) : t("bigbluebutton") %></title> %>
     <meta property="og:title" content="<%= yield(:page_title).present? ? yield(:page_title) : t("bigbluebutton") %>" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content=<%=user_locale(@room&.owner)%> />
